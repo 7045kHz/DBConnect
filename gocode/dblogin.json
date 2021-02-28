@@ -1,0 +1,28 @@
+{
+  "databases": [
+  {
+        "Connection": "DB_Connection",
+        "Description": "some info about connection",
+        "dbType": "DB Type",
+        "ConnectString": "db connect string"
+  },
+  {
+        "Connection": "ORCL_SID_USER",
+        "Description": "some info about connection",
+        "dbType": "ORCL",
+        "ConnectString": "user=\"user\" password=\"passwd\" connectString=\"fqdn.example.com:1521/SID\""
+  },
+  {
+        "Connection": "MYSQL_DB_USER",
+        "dbType": "MySQL",
+        "Description": "some info about connection",
+        "ConnectString": "user:passwd@tcp(127.0.0.1:3306)/db"
+  },
+  {
+        "Connection": "SQLSRV_msdb_devops",
+        "dbType": "SQLserver",
+        "Description": "some info about connection",
+        "ConnectString": "sqlserver://user:passwd@fqdn.example.com:1433?database=DB&connection+timeout=30"
+  }
+ ]
+}
